@@ -1,10 +1,10 @@
 {
-  "name": "actions_test",
+  "name": "ghactionstest",
   "version": "1.0.0",
   "description": "repo to test gh actions",
   "main": "helloworld.html",
   "scripts": {
-    "test": "echo \"error, no test command\" && exit 1"
+    "test": "\"error, no test command\" && exit 1"
   },
   "repository": {
     "type": "git",
