@@ -1,10 +1,10 @@
 {
   "name": "ghactionstest",
   "version": "1.0.0",
-  "description": "repo to test gh actions",
+  "description": "repo to test ghactions",
   "main": "helloworld.html",
   "scripts": {
-    "test": "\"error, no test command\" && exit 1"
+    "test": "echo \"no test command :P\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/julianBogado1/ghActionsTest/issues"
   },
-  "homepage": "https://github.com/julianBogado1/ghActionsTest#readme"
+  "homepage": "https://github.com/julianBogado1/ghActionsTest#readme",
+  "devDependencies": {
+    "semantic-release": "^24.1.0"
+  }
 }
